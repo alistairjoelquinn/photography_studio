@@ -1,6 +1,90 @@
 <template>
-  <div class="container">
-    <h1>Teniya's Photo Studio</h1>
+  <div>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">Teniya Salazar</h1>
+          <h2 class="subtitle">Online Photo Studio</h2>
+        </div>
+      </div>
+    </section>
+    <div class="columns main-content">
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="title">Title</h2>
+            <h3 class="subtitle">Subtitle</h3>
+          </div>
+          <footer class="card-footer">
+            <div class="card-footer-item">
+              <a href="#" class="button is-success">
+                <i class="fa fa-thumbs-o-up"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-danger">
+                <i class="fa fa-thumbs-o-down"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-info">
+                <i class="fa fa-retweet"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="title">Title</h2>
+            <h3 class="subtitle">Subtitle</h3>
+          </div>
+          <footer class="card-footer">
+            <div class="card-footer-item">
+              <a href="#" class="button is-success">
+                <i class="fa fa-thumbs-o-up"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-danger">
+                <i class="fa fa-thumbs-o-down"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-info">
+                <i class="fa fa-retweet"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <h2 class="title">Title</h2>
+            <h3 class="subtitle">Subtitle</h3>
+          </div>
+          <footer class="card-footer">
+            <div class="card-footer-item">
+              <a href="#" class="button is-success">
+                <i class="fa fa-thumbs-o-up"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-danger">
+                <i class="fa fa-thumbs-o-down"></i>
+              </a>
+            </div>
+            <div class="card-footer-item">
+              <a href="#" class="button is-info">
+                <i class="fa fa-retweet"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -9,34 +93,11 @@ export default {};
 </script>
 
 <style>
-.container {
+section {
+  margin-bottom: 20px;
+}
+.main-content {
+  width: 90vw;
   margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>
