@@ -3,8 +3,8 @@
     <section class="hero heading">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title is-1">Teniya Salazar</h1>
-          <h2 class="subtitle is-6">Online Photo Studio</h2>
+          <h1 class="title is-1 header-text">Teniya Salazar</h1>
+          <h2 class="subtitle is-6 header-text">Online Photo Studio</h2>
         </div>
       </div>
     </section>
@@ -103,5 +103,10 @@ section {
 }
 .heading {
   background-color: tomato;
+}
+.header-text {
+  color: antiquewhite;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Roboto", sans-serif;
 }
 </style>

@@ -10,7 +10,8 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/camera.ico' },
-            { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }
+            { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap' }
         ]
     },
     css: [
@@ -20,12 +21,15 @@ export default {
     ],
     components: true,
     buildModules: [
+        '@nuxtjs/style-resources'
     ],
+    styleResources: {
+        scss: ['~assets/scss/main.scss']
+    },
     modules: [
         '@nuxtjs/axios',
         '@nuxtjs/bulma'
     ],
     axios: {},
-    build: {
-    }
+    build: {}
 }

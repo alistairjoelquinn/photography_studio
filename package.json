@@ -15,5 +15,7 @@
         "nuxt": "^2.14.0",
         "sass-loader": "^10.0.1"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "@nuxtjs/style-resources": "^1.0.0"
+    }
 }
