@@ -1,10 +1,10 @@
 <template>
   <div>
-    <section class="hero is-primary">
+    <section class="hero heading">
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-1">Teniya Salazar</h1>
-          <h2 class="subtitle">Online Photo Studio</h2>
+          <h2 class="subtitle is-6">Online Photo Studio</h2>
         </div>
       </div>
     </section>
@@ -92,12 +92,16 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" >
+@import "~assets/scss/main.scss";
 section {
   margin-bottom: 20px;
 }
 .main-content {
   width: 90vw;
   margin: 0 auto;
+}
+.heading {
+  background-color: tomato;
 }
 </style>
