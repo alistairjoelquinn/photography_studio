@@ -26,7 +26,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 section {
   margin-bottom: 20px;
 }
@@ -35,7 +35,7 @@ section {
   margin: 0 auto;
 }
 .tomato {
-  background-color: $main-color;
+  background-color: $purple;
 }
 .header-text {
   color: antiquewhite;

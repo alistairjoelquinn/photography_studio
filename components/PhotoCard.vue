@@ -12,7 +12,7 @@
           </a>
         </div>
         <div class="card-footer-item">
-          <a href="#" class="button tomato">
+          <a href="#" class="button">
             <i class="fa fa-thumbs-o-down"></i>
           </a>
         </div>
@@ -25,3 +25,9 @@
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.footer-blue {
+  background-color: $blue;
+}
+</style>
