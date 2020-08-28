@@ -15,7 +15,7 @@ export default {
         ]
     },
     css: [
-        '~static/main.css'
+        { src: 'bulma/bulma.sass', lang: 'sass' }
     ],
     plugins: [
     ],
@@ -27,8 +27,7 @@ export default {
         scss: ['~assets/scss/main.scss']
     },
     modules: [
-        '@nuxtjs/axios',
-        '@nuxtjs/bulma'
+        '@nuxtjs/axios'
     ],
     axios: {},
     build: {}

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero tomato">
+    <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-1 header-text">Teniya Salazar</h1>
@@ -33,9 +33,6 @@ section {
 .main-content {
   width: 90vw;
   margin: 0 auto;
-}
-.tomato {
-  background-color: $purple;
 }
 .header-text {
   color: antiquewhite;
